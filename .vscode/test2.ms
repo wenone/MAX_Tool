@@ -10,7 +10,7 @@ rollout test "创建Box"
         actionMan.executeAction 0 "50001" 
         max move
         move $ [0,0,-6.33732]
-        move $ [0,-43.161,0]
+        --move $ [0,-43.161,0]
     ) 
 )
 CreateDialog test
